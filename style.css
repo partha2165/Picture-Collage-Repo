@@ -6,16 +6,15 @@ img{
     display: flex;
     height: 400px;
     gap: 5px;
-    margin-top: 30px;
+   margin-top: 5px;
 }
 .row > div{
     flex: 1;
 }
-.vertical img{
+.vertical-2 img{
     height: 50%;
 }
-
-.vertical-2{
+.collage-2{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 5px;
