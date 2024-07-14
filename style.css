@@ -19,3 +19,19 @@ img{
     grid-template-columns: repeat(2, 1fr);
     gap: 5px;
 }
+.box{
+    background-color: gray;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin-top: 30px;
+    grid-template-rows: repeat(3, 200px) 50px 50px;
+}
+#box-1{
+    grid-row: span 5;
+}
+#box-11, #box-12{
+    grid-column: span 3;
+}
